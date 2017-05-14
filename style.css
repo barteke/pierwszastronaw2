@@ -10,3 +10,9 @@ body
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.square
+{
+	width: 50%;
+	float: left;
+}
