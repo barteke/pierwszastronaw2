@@ -1,7 +1,9 @@
 body
 {
 	background-image: url(tlo.png); 
+	font-family: 'Anton', sans-serif;
 	color: #262626; 
+	margin: 0px !important;
 }
 
 #all 
@@ -12,19 +14,43 @@ body
 	margin-right: auto;
 }
 
-.square
+#menu
+{
+	float: left;
+	background-color: grey;
+	height: 1000px;
+	font-family: 'Baloo', cursive;
+}
+
+#header
+{
+	margin: 40px;
+	padding: 30px;
+	font-size: 40px;
+	font-family: 'Chewy', cursive;
+}
+
+#square
 {
 	float: left;
 	margin: 60px;
+	margin-top: 0px;
 }
 
 .plate
 {
-	margin :10px;
+	margin :20px;
+	margin-bottom: 0px;
+	margin-top: 10px;
 	border: dotted 2px #0000ff;
 	padding: 10px;
 	background-color: #e6e6e6;
 	text-height: 5px;
+}
+
+.plate:hover
+{
+	background-color: #a6a6a6;
 }
 
 a.platelink
