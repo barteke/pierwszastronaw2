@@ -1,6 +1,6 @@
 body
 {
-	background-image: url(tlo.png); 
+	background-image: url(img/tlo.png); 
 	font-family: 'Anton', sans-serif;
 	color: #262626; 
 	margin: 0px !important;
@@ -12,14 +12,77 @@ body
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	height: 1500px;
 }
 
 #menu
 {
 	float: left;
 	background-color: grey;
-	height: 1000px;
+	padding-bottom: 100%;
 	font-family: 'Baloo', cursive;
+	padding-top: 30px;
+	border-right: groove 2px #999;
+}
+
+.menu-input-txt
+{
+	background-color: #e6e6e6;
+	width: 140px;
+	padding: 3px;
+	border: solid 2px #999;
+	border-radius: 4px;
+	color: #333;
+	font-size: 15px;
+	margin: 3px;
+}
+
+.menu-input-sub
+{
+	background-color: #e6e6e6;
+	width: 150px;
+	padding: 5px;
+	border: solid 2px #999;
+	border-radius: 4px;
+	color: #333;
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+.menu-input-sub:hover
+{
+	background-color: #a6a6a6;
+	border: solid 2px #595959;
+}
+
+.plate
+{
+	margin :20px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	border: dotted 2px #999;
+	padding: 10px;
+	background-color: #e6e6e6;
+	text-height: 5px;
+}
+
+.plate:hover
+{
+	background-color: #a6a6a6;
+	border: dotted 2px #595959;
+}
+
+a.platelink
+{
+	text-decoration: none;
+	color: #262626
+}
+
+#square
+{
+	float: left;
+	margin: 60px;
+	margin-top: 0px;
 }
 
 #header
@@ -30,31 +93,17 @@ body
 	font-family: 'Chewy', cursive;
 }
 
-#square
+#content
 {
-	float: left;
-	margin: 60px;
-	margin-top: 0px;
-}
-
-.plate
-{
-	margin :20px;
-	margin-bottom: 0px;
-	margin-top: 10px;
-	border: dotted 2px #0000ff;
-	padding: 10px;
-	background-color: #e6e6e6;
-	text-height: 5px;
-}
-
-.plate:hover
-{
-	background-color: #a6a6a6;
-}
-
-a.platelink
-{
-	text-decoration: none;
-	color: #262626
+	text-align: left;
+	background-color: white;
+	width: 800px;
+	height: 500px;
+	margin-left:auto;
+	margin-right: auto;
+	padding: 5px;
+	border-radius: 4px;
+	-webkit-box-shadow: 3px 3px 30px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 3px 30px 3px rgba(0,0,0,0.75);
+	box-shadow: 3px 3px 30px 3px rgba(0,0,0,0.75);
 }
