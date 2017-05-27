@@ -14,97 +14,25 @@ body
 	margin-right: auto;
 }
 
-#menu
-{
-	float: left;
-	background-color: grey;
-	padding-bottom: 100%;
-	font-family: 'Baloo', cursive;
-	padding-top: 30px;
-	border-right: groove 2px #999;
-}
-
-.menu-input-txt
-{
-	background-color: #e6e6e6;
-	width: 140px;
-	padding: 3px;
-	border: solid 2px #999;
-	border-radius: 4px;
-	color: #333;
-	font-size: 15px;
-	margin: 3px;
-}
-
-.menu-input-sub
-{
-	background-color: #e6e6e6;
-	width: 150px;
-	padding: 5px;
-	border: solid 2px #999;
-	border-radius: 4px;
-	color: #333;
-	margin-top: 10px;
-	font-size: 15px;
-}
-
-.menu-input-sub:hover
-{
-	background-color: #a6a6a6;
-	border: solid 2px #595959;
-}
-
-.plate
-{
-	margin :20px;
-	margin-bottom: 0px;
-	margin-top: 10px;
-	border: dotted 2px #999;
-	padding: 10px;
-	background-color: #e6e6e6;
-	text-height: 5px;
-}
-
-.plate:hover
-{
-	background-color: #a6a6a6;
-	border: dotted 2px #595959;
-}
-
-a.platelink
-{
-	text-decoration: none;
-	color: #262626
-}
-
-#square
-{
-	float: left;
-	margin: 60px;
-	margin-top: 0px;
-}
-
 #header
 {
-	margin: 40px;
-	padding: 30px;
 	font-size: 40px;
 	font-family: 'Chewy', cursive;
 }
 
-#content
+#logo
 {
-	text-align: left;
+	width: 200px;
 	background-color: white;
-	width: 800px;
-	height: 300px;
-	margin-left:auto;
-	margin-right: auto;
-	padding: 5px;
-	border-radius: 4px;
-	-webkit-box-shadow: 3px 3px 30px 3px rgba(0,0,0,0.75);
-	-moz-box-shadow: 3px 3px 30px 3px rgba(0,0,0,0.75);
-	box-shadow: 3px 3px 30px 3px rgba(0,0,0,0.75);
-    font-family: 'PT Sans', sans-serif;
-	font-size: 20px;
+	padding: 30px;
+	margin: 40px;
+	float: left;
+}
+
+#watch
+{
+	width: 200px;
+	background-color: white;
+	padding: 30px;
+	margin: 40px;
 }
