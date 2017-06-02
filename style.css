@@ -16,31 +16,40 @@ body
 
 #header
 {
-	background-color: black ;
+	background-color: #3e3c3d;
 	font-size: 40px;
 	font-family: 'Chewy', cursive;
+	
 }
 
 #logo
 {
 	margin-right: auto;
-	float: left;
+	float: right;
 	width: 600px;
+	margin-right: 10%;
+	image-align: center;
 }
 
 #watch
 {
+	color: #764d53;
 	font-size: 80px;
 	height: 80px;
 	padding: 40px;
 	margin-left: auto;
 	float: right;
 }
+#content{
+	padding: 30px;
+	margin-left: 70px; 
+	margin-right: 70px;
+}
 
 #footer
 {
-	width: 960px;
-	margin: 20px;
-	text-align: center;	
-	text-bottom: center;
+	background-color: #3e3c3d;
+	font-size: 25px;
+	padding: 30px;
+	text-align: center;
 }
