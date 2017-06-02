@@ -16,23 +16,22 @@ body
 
 #header
 {
+	background-color: black ;
 	font-size: 40px;
 	font-family: 'Chewy', cursive;
 }
 
 #logo
 {
-	width: 200px;
-	background-color: white;
-	padding: 30px;
-	margin: 40px;
+	margin-right: auto;
 	float: left;
 }
 
 #watch
 {
-	width: 200px;
-	background-color: white;
-	padding: 30px;
-	margin: 40px;
+	font-size: 80px;
+	height: 80px;
+	padding: 40px;
+	margin-left: auto;
+	float: left;
 }
