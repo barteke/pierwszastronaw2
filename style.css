@@ -25,6 +25,7 @@ body
 {
 	margin-right: auto;
 	float: left;
+	width: 600px;
 }
 
 #watch
@@ -33,5 +34,13 @@ body
 	height: 80px;
 	padding: 40px;
 	margin-left: auto;
-	float: left;
+	float: right;
+}
+
+#footer
+{
+	width: 960px;
+	margin: 20px;
+	text-align: center;	
+	text-bottom: center;
 }
