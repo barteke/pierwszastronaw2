@@ -27,8 +27,7 @@ body
 	margin-right: auto;
 	float: right;
 	width: 600px;
-	margin-right: 10%;
-	image-align: center;
+	margin-right: 10%;	
 }
 
 #watch
@@ -52,4 +51,86 @@ body
 	font-size: 25px;
 	padding: 30px;
 	text-align: center;
+	bottom: 0;
+	height: 10px;
+	position: fixed;
+	width: 100%;
+	color: #764d53;
+}
+
+#panel
+{
+	background: #3e3c3d;
+	font: 16px calibri;
+	letter-spacing: -1px; 
+	float: left;
+	margin: 0 auto;
+	padding: 15px 0 0;
+	letter-spacing: -1px;
+	-webkit-box-shadow: 0 0 2px silver; 
+	-moz-box-shadow: 0 0 2px silver; 
+	box-shadow: 0 0 2px silver;
+	margin-left:5px;
+	margin-top: 5px;
+}
+
+form 
+{
+margin: 0;
+}
+
+label 
+{
+	display: block;
+	width: 260px;
+	padding: 10px 20px;
+	color: white;
+	font-size: 16px;
+	text-shadow: 0 0 1px silver;
+}
+
+#username, #password 
+{
+	display: block;
+	width: 200px; 
+	margin: 0 auto;
+	padding: 10px 5px;
+	border: 1px solid silver;
+	outline: 5px solid #ebebeb;
+	font-size: 22px;
+	height: 5px;
+	margin-bottom: 10px;
+}
+
+#username:focus, #password:focus 
+{
+	outline: 5px solid #e5f2f8;
+}
+
+.check 
+{
+	display: inline;
+	float: none;
+	font-size: 11px;
+	padding: 5px;
+}
+
+input[type="submit"] 
+{
+	width: 70px;
+	padding: 5px 13px;
+	border: 1px solid #005f85;
+	color: white;
+	text-shadow: 0 0 1px black;
+	background: #98c9dc;
+	position: relative;
+	left: 25px;
+	margin-bottom: 5px;
+}
+
+#panel, input[type="submit"] 
+{
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
 }
